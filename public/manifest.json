@@ -1,19 +1,19 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "short_name": "Password Randomizer",
   "name": "Password Randomizer App",
   "version": "1.0.0",
   "author": "Tugay Demirel",
   "description": "This extension is a generating random passwords and copying them with one-click",
-  "browser_action": {
+  "action": {
+    "default_icon": {
+      "16": "logo-small.png",
+      "24": "logo-medium.png",
+      "32": "logo-large.png"
+    },
+    "default_title": "Password Randomizer",   
     "default_popup": "index.html",
-    "default_title": "Click to generate password"
-  },
-  "icons": {
-    "16": "logo-small.png",
-    "48": "logo-medium.png",
-    "128": "logo-large.png"
-  },
   "permissions": [
   ]
+}
 }
