@@ -9,10 +9,11 @@
 .socials{
     display: flex;
     list-style: none;
+    margin-right: 5px;
 }
 
 .socials .social{
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .social a{
